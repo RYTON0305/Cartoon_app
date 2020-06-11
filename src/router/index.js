@@ -14,6 +14,33 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/Home/Home.vue")
   },
   {
+    path: "/ranking",
+    name: "ranking",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Home/Ranking.vue")
+  },
+  {
+    path: "/free",
+    name: "free",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Home/Free.vue")
+  },
+  {
+    path: "/category",
+    name: "category",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Home/Category.vue")
+  },
+  {
     path: "/search",
     name: "search",
     // route level code-splitting
@@ -21,8 +48,8 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Home/Search.vue")
-
   },
+
   {
     path: "/bookshelf",
     name: "bookshelf",

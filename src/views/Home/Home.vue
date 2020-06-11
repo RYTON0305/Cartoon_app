@@ -15,7 +15,7 @@
       ></div>
     </div>
     <keep-alive>
-      <BookBox :bookType="currentTab" :key="currentTab" />
+      <BookBox :bookType.sync="currentTab" :key="currentTab" />
     </keep-alive>
     <Tabbar />
   </div>

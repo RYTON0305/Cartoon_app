@@ -10,7 +10,12 @@
       <img src="@/assets/home-banner-bottom.png" class="home-banner-bottom" alt />
     </div>
     <div class="portal-nav">
-      <div class="protal-item" v-for="(val,key,i) in protalList" :key="i">
+      <div
+        class="protal-item"
+        v-for="(val,key,i) in protalList"
+        :key="i"
+        @click="jumpToProtal(key)"
+      >
         <img :src="val" alt class="item_cate" />
         <div class="title">{{key}}</div>
       </div>
@@ -76,7 +81,38 @@ export default {
     });
   },
   watch: {},
-  methods: {},
+  methods: {
+    jumpToProtal(key) {
+      switch (key) {
+        case "小说":
+          this.$emit("update:bookType", "novel");
+          break;
+        case "漫画":
+          this.$emit("update:bookType", "cartoon");
+          break;
+        case "排行":
+          this.$router.push({
+            name: "ranking"
+          });
+          break;
+        case "免费":
+          this.$router.push({
+            name: "free"
+          });
+          break;
+        case "储值":
+          this.$router.push({
+            name: "free"
+          });
+          break;
+        case "分类":
+          this.$router.push({
+            name: "category"
+          });
+          break;
+      }
+    }
+  },
   components: {
     Swiper,
     SwiperSlide

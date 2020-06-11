@@ -29,7 +29,7 @@
   min-height: 100vh;
   width: 100vw;
   overflow: hidden;
-  background-color: #f5f5f5;
+  // background-color: #f5f5f5;
 }
 
 .mt-10 {

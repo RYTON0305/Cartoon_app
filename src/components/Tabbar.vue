@@ -5,7 +5,7 @@
         <router-link tag="div" to="/bookshelf" class="item">
           <i class="iconfont icon-jiaoshi_shujia"></i> 书架
         </router-link>
-        <router-link tag="div" to="/home" class="item active">
+        <router-link tag="div" to="/home" class="item ranking-active">
           <i class="iconfont icon-daohangshouye"></i> 首页
         </router-link>
         <router-link tag="div" to="/mine" class="item">

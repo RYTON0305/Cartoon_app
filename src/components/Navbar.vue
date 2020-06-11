@@ -1,8 +1,10 @@
 <template>
-  <nav :style="styleObject">
-    <i :style="{'color':arrowColor}" class="iconfont icon-zuo" @click="$router.back()"></i>
-    <div class="title">{{title}}</div>
-  </nav>
+  <div style="height:50px">
+    <nav :style="styleObject">
+      <i :style="{'color':arrowColor}" class="iconfont icon-zuo" @click="$router.back()"></i>
+      <div class="title">{{title}}</div>
+    </nav>
+  </div>
 </template>
 
 <script>
@@ -43,7 +45,9 @@ nav {
   height: 50px;
   line-height: 50px;
   text-align: center;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100vw;
   // background-color: #d43f3a;
   // color: #fff;
   // box-shadow: 0px 2px 2px #999;
