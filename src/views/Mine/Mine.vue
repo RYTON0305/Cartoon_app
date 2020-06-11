@@ -129,17 +129,19 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
+<style lang="stylus" scoped>
 * {
   box-sizing: content-box;
 }
+
 .container {
   background-color: #fff;
 }
+
 .profile {
   height: 150px;
   display: flex;
-  background: url("../../assets/ubg.gif");
+  background: url('../../assets/ubg.gif');
   background-size: cover;
   align-items: center;
   position: relative;
@@ -150,10 +152,12 @@ export default {
     font-size: 16px;
     margin: 5px 0;
   }
+
   .text {
     font-size: 14px;
   }
 }
+
 .avatar {
   border-radius: 50%;
   width: 70px;
@@ -161,18 +165,21 @@ export default {
   border: 2px solid #fff;
   background-color: #eee;
   margin: 0 18px;
+
   img {
     width: 70px;
     height: 70px;
     border-radius: 50%;
   }
 }
+
 .actions {
   position: absolute;
   top: 20px;
   right: 10px;
   font-size: 13px;
   color: #2196f3;
+
   .action {
     background-color: #fff;
     width: 70px;
@@ -188,22 +195,26 @@ export default {
   height: 47px;
   padding: 15px 0;
   position: relative;
+
   .col {
     width: 50%;
     float: left;
     text-align: center;
+
     .num {
       height: 28px;
       line-height: 28px;
       font-size: 21px;
       color: #fde23d;
     }
+
     .title {
       font-size: 14px;
     }
   }
+
   &::after {
-    content: " ";
+    content: ' ';
     position: absolute;
     width: 1px;
     height: 42px;
@@ -214,18 +225,22 @@ export default {
     background-color: #dcdcdc;
   }
 }
+
 .item {
   display: flex;
   align-items: center;
   height: 50px;
   padding: 0 14px;
+
   .icon {
     margin-right: 14px;
   }
+
   .title {
     flex: 1;
     font-size: 14px;
   }
+
   .btn {
     width: 74px;
     height: 25px;
@@ -236,15 +251,18 @@ export default {
     font-size: 12px;
     color: #fde23d;
   }
+
   .text .iconfont {
     font-size: 14px;
     color: #999;
   }
 }
+
 .signed {
   &::before {
-    content: "已";
+    content: '已';
   }
+
   color: #ff5722;
 }
 </style>

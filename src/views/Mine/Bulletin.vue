@@ -59,22 +59,25 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="stylus">
 .content {
   border: solid #fff;
   border-width: 15px 8px;
   min-height: calc(100vh - 50px);
   background-color: #f8f8f8;
 }
+
 .header {
   font-size: 15px;
   margin-bottom: 20px;
   color: #333;
   text-align: center;
 }
+
 .block {
   padding-bottom: 10px;
 }
+
 p {
   margin: 10px 0;
   font-size: 14px;

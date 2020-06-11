@@ -24,17 +24,19 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="stylus">
 &.empty {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
 .empty {
   color: #888;
   font-size: 14px;
 }
+
 .jumpToHome {
   width: 134px;
   height: 38px;

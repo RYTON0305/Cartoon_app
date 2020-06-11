@@ -76,27 +76,32 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="stylus">
 .container {
   background-color: #fff;
 }
+
 .van-search {
   height: 50px;
+
   & ::placeholder {
     color: #333;
     font-size: 14px;
   }
 }
+
 .res-text {
   margin: 16px 0 12px;
   padding: 0 12px;
   font-size: 14px;
   color: #7a7a7a;
   background-color: #fff;
+
   span {
     color: #ff730b;
   }
 }
+
 .book-res {
   .item {
     display: flex;
@@ -106,6 +111,7 @@ export default {
     color: #999;
     padding: 13px 12px;
     border-top: 1px solid #dcdcdc;
+
     .body {
       height: 100%;
       flex: 1;
@@ -114,23 +120,28 @@ export default {
       flex-direction: column;
       justify-content: space-between;
     }
+
     img {
       width: 63px;
       height: 84px;
     }
+
     .title {
       font-size: 16px;
       color: #000;
     }
+
     .intro {
       width: 90px;
     }
+
     .iconfont {
       font-size: 13px;
       color: #999;
     }
   }
 }
+
 .action {
   width: 62px;
   height: 27px;

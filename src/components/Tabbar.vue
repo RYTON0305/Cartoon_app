@@ -22,21 +22,25 @@ export default {
 };
 </script>
 
-<style scoped lang='less'>
+<style scoped lang='stylus'>
 .tabbar-container {
   height: 50px;
 }
+
 .tabbar {
   position: fixed;
   bottom: 0;
 }
+
 .iconfont {
   color: #ddd;
 }
+
 .router-link-active {
   .iconfont {
     color: #fe8e99;
   }
+
   color: #fde23d;
 }
 </style>

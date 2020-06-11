@@ -29,7 +29,7 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="stylus">
 .collect-item {
   height: 100px;
   padding: 8px 12px;
@@ -37,6 +37,7 @@ export default {
   align-items: center;
   background-color: #fff;
   border-bottom: 1px solid #dcdcdc;
+
   &:last-of-type {
     border: 0;
   }
@@ -46,22 +47,25 @@ export default {
   width: 63px;
   height: 84px;
 }
+
 .body {
   margin-left: 15px;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+
   .title {
     font-size: 16px;
     color: #000;
   }
-  .author,
-  .text {
+
+  .author, .text {
     font-size: 14px;
     color: #999;
   }
 }
+
 .action {
   padding: 0 12px;
   height: 29px;

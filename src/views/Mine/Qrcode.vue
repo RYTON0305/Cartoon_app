@@ -46,20 +46,23 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="stylus">
 .container {
   margin: 24px 48px;
   text-align: center;
 }
+
 .img-box {
   img {
     width: 100px;
     height: 100px;
   }
 }
+
 .errMsg {
   padding-top: 20px;
 }
+
 .jumpTo {
   padding-top: 10px;
 }

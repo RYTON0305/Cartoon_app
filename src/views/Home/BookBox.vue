@@ -84,15 +84,17 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="stylus">
 /deep/.swiper-pagination-bullets {
   bottom: 30px !important;
 }
+
 /deep/ .swiper-pagination-bullet {
   width: 6px;
   height: 6px;
   background-color: #000;
 }
+
 /deep/ .swiper-pagination-bullet-active {
   background-color: #fde23d;
   width: 12px;
@@ -103,15 +105,18 @@ export default {
   width: 100vw;
   // height: 236px;
   position: relative;
+
   img {
     width: 100vw;
   }
+
   /deep/.banner-bullet-active {
     background-color: rgba(253, 226, 61, 1);
     width: 12px;
     height: 8px;
     margin: 0 4px;
   }
+
   .home-banner-bottom {
     position: absolute;
     z-index: 99;
@@ -127,9 +132,11 @@ export default {
   text-align: center;
   background-color: #fff;
 }
+
 .protal-item {
   width: 88px;
   font-size: 12px;
+
   img {
     width: 50px;
   }
@@ -138,15 +145,17 @@ export default {
 .bm-box {
   margin-top: 10px;
   background-color: #fff;
+
   .head {
     padding: 0 12px;
-
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     .title {
       font-size: 16px;
+
       &::before {
         display: inline-block;
         width: 4px;
@@ -156,7 +165,7 @@ export default {
         vertical-align: middle;
         margin-top: -3px;
         margin-right: 5px;
-        content: " ";
+        content: ' ';
       }
     }
   }
@@ -164,25 +173,30 @@ export default {
   .more {
     color: #fde23d;
     font-size: 8px;
+
     i {
       font-size: 8px;
       color: #ff0000;
     }
   }
 }
+
 .books-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+
   .item {
     width: 105px;
     height: 187px;
     margin-bottom: 10px;
     background-color: #fff;
+
     .lazy {
       max-width: 100%;
       height: 146px;
     }
+
     .title {
       white-space: nowrap;
       overflow: hidden;
@@ -191,6 +205,7 @@ export default {
       font-size: 12px;
       color: #333;
     }
+
     .text {
       margin: 3px 0;
       font-size: 12px;

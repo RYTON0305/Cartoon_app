@@ -21,10 +21,11 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="stylus">
 .feedback-box {
   padding: 12px;
 }
+
 #feedback {
   padding: 9px 12px;
   height: 195px;
@@ -32,6 +33,7 @@ export default {
   width: 100%;
   font-size: 13px;
 }
+
 .submit {
   height: 40px;
   line-height: 40px;

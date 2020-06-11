@@ -38,14 +38,14 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
+<style lang="stylus" scoped>
 .container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-
   background-color: #fff;
 }
+
 .navbar {
   position: absolute;
   top: 0;
@@ -56,6 +56,7 @@ export default {
   align-items: center;
   z-index: 999;
   background-color: #fff;
+
   .tab-box {
     display: flex;
     height: 30px;
@@ -65,6 +66,7 @@ export default {
     border-radius: 20px;
     color: #fff;
     font-size: 14px;
+
     .item {
       width: 54px;
       height: 100%;
@@ -74,10 +76,12 @@ export default {
     }
   }
 }
+
 .active {
   background-color: #fff;
   color: #fe8e99;
 }
+
 .bs-box {
   margin-top: 45px;
   flex: 1;

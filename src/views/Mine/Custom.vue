@@ -43,18 +43,21 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="stylus">
 .content {
   background-color: #fff;
   min-height: calc(100vh - 50px);
 }
+
 .contact-box {
   padding: 12px;
   background-color: #fff;
+
   .row {
     margin: 9px 0;
     font-size: 15px;
     color: #333;
+
     .label {
       display: inline-block;
       margin-left: 9px;
@@ -68,6 +71,7 @@ export default {
     }
   }
 }
+
 /deep/.van-collapse-item__content {
   background-color: #f9f9fb;
 }

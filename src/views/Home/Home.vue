@@ -42,7 +42,7 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
+<style lang="stylus" scoped>
 .container {
   background-color: #f5f5f5;
 }
@@ -56,6 +56,7 @@ export default {
   justify-content: center;
   align-items: center;
   z-index: 999;
+
   .tab-box {
     display: flex;
     height: 30px;
@@ -65,6 +66,7 @@ export default {
     border-radius: 20px;
     color: #fff;
     font-size: 14px;
+
     .item {
       width: 94px;
       height: 100%;
@@ -73,6 +75,7 @@ export default {
       text-align: center;
     }
   }
+
   .action {
     position: absolute;
     right: 12px;
@@ -80,6 +83,7 @@ export default {
     color: #fff;
   }
 }
+
 .active {
   background-color: #fff;
   color: #fe8e99;

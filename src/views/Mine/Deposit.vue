@@ -86,10 +86,11 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="stylus">
 .content {
   padding: 0 10px;
 }
+
 .deposit-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -107,13 +108,16 @@ export default {
     justify-content: center;
     align-items: center;
     font-size: 13px;
+
     .amount {
       color: #333;
       font-size: 18px;
     }
+
     .coin {
       padding: 5px;
     }
+
     .label {
       display: block;
       width: 50px;
@@ -122,10 +126,11 @@ export default {
       right: 0;
       top: 0;
       background-size: cover;
-      background-image: url(http://xiaoshuo.dreoma.com/Public/home/mhimages/label.svg) !important;
+      background-image: url('http://xiaoshuo.dreoma.com/Public/home/mhimages/label.svg') !important; // xiaoshuo.dreoma.com/Public/home/mhimages/label.svg) !important;
     }
   }
 }
+
 .deposit-btn {
   height: 50px;
   line-height: 50px;
@@ -136,21 +141,26 @@ export default {
   font-size: 16px;
   margin: 15px 0;
 }
+
 .deposit-notice {
   font-size: 13px;
   color: #666;
   line-height: 1.8;
+
   .title {
     height: 30px;
     line-height: 30px;
   }
 }
+
 .active {
   background: #fdf2e9 !important;
   border-color: #ff730b !important;
+
   .amount {
     color: #ff730b !important;
   }
+
   .gift {
     color: #ff5539 !important;
   }

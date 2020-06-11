@@ -36,7 +36,7 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="stylus">
 .iconfont {
   margin-right: 10px;
   color: #ff7550;

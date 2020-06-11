@@ -73,14 +73,16 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
+<style lang="stylus" scoped>
 section {
   margin-top: 15px;
   background-color: #fff;
 }
+
 .form {
   box-shadow: 0px 0px 4px #999999;
 }
+
 .form-amount {
   height: 46px;
   line-height: 46px;
@@ -88,11 +90,13 @@ section {
   padding: 0 20px;
   border-bottom: 1px solid #ddd;
   font-size: 12px;
+
   .num {
     color: #d71629;
     font-size: 12px;
   }
 }
+
 .form-item {
   height: 46px;
   line-height: 46px;
@@ -100,6 +104,7 @@ section {
   font-size: 12px;
   color: #4f4d4d;
   overflow: hidden;
+
   input {
     height: 100%;
     border: 0;
@@ -107,12 +112,14 @@ section {
     font-size: 10px;
   }
 }
+
 .btn-box {
   height: 38px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px;
+
   .btn {
     width: 284px;
     text-align: center;
@@ -128,6 +135,7 @@ section {
 
 .record-box {
   margin: 10px 20px;
+
   .record-title {
     border-bottom: 1px solid #ddd;
     font-size: 12px;
@@ -135,6 +143,7 @@ section {
     line-height: 24px;
   }
 }
+
 .redord-item {
   font-size: 12px;
   color: #999;
@@ -155,6 +164,7 @@ section {
     border: 1px solid #ddd;
     line-height: 20px;
   }
+
   .page-number {
     width: 120px;
     text-align: center;

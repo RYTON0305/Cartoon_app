@@ -38,7 +38,7 @@ export default {
 };
 </script>
 
-<style lang='less' scoped>
+<style lang='stylus' scoped>
 nav {
   height: 50px;
   line-height: 50px;
@@ -49,6 +49,7 @@ nav {
   // box-shadow: 0px 2px 2px #999;
   border-bottom: 1px solid #eee;
 }
+
 .iconfont {
   position: absolute;
   left: 10px;

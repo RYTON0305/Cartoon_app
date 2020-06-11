@@ -23,7 +23,7 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="stylus">
 .swiper-no {
   padding: 20px 0 20px 0;
   min-height: 50px;

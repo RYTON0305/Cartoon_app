@@ -40,17 +40,20 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="stylus">
 .content {
   font-size: 14px;
 }
+
 .van-cell {
   // padding: 18px 12px;
   color: #333;
 }
+
 .coin {
   color: #fde23d;
 }
+
 .time {
   color: #999;
   font-size: 12px;

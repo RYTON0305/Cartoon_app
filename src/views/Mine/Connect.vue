@@ -29,25 +29,29 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style scoped lang="stylus">
 img {
   display: block;
   width: 66px;
   margin: 0 auto;
   padding: 44px 0;
 }
+
 .login {
   padding: 0 20px;
 }
+
 .van-field {
   border-bottom: 1px solid #eee;
   font-size: 19px;
   padding: 12px 0;
   color: #444;
+
   ::placeholder {
     color: #bbb;
   }
 }
+
 .connect-btn {
   height: 45px;
   background-color: #72a1ff;
