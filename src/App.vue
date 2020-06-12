@@ -76,4 +76,44 @@
     }
   }
 }
+
+// html {
+// overflow-y: scroll;
+// }
+
+// :root {
+// overflow-y: auto;
+// overflow-x: hidden;
+// }
+
+// :root body {
+// position: absolute;
+// }
+
+// body {
+// width: 100vw;
+// overflow: hidden;
+// }
+
+// html {
+// overflow-y: overlay !important;
+// overflow-x: overlay !important;
+// }
+html {
+  overflow-y: scroll; // 这是为了兼容ie8，不支持:root, vw
+}
+
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+:root body {
+  position: absolute;
+}
+
+body {
+  width: 100vw;
+  overflow: hidden;
+}
 </style>
