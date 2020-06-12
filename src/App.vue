@@ -9,7 +9,7 @@
 
 
 <style lang='stylus'>
-@import 'http://at.alicdn.com/t/font_1869864_mgmtsejxv8.css';
+@import 'http://at.alicdn.com/t/font_1869864_grcm7gc2wwb.css';
 
 * {
   box-sizing: border-box;
